@@ -41,5 +41,4 @@ The system follows a Retrieval-Augmented Generation (RAG) pipeline. The architec
 User Question → Embedding Comparison → Retrieval from Chroma DB → Context inserted into Prompt Template → GPT-3.5 Turbo generates answer → Answer returned with source page citations.
 5. Conclusion
 This project demonstrates a complete RAG pipeline including document ingestion, text preprocessing, embedding generation, vector database storage, retrieval, LLM-based answer generation, and user interface deployment.
-<img width="432" height="644" alt="image" src="https://github.com/user-attachments/assets/ceabae08-c609-4e97-8d6d-f1c56847ab08" />
 
